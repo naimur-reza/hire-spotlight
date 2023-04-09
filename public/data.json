@@ -1,0 +1,61 @@
+{
+  "jobs": [
+    {
+      "company": "Google",
+      "logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      "position": "Software Engineer",
+      "location": "Mountain View, CA",
+      "description": "We are seeking a highly skilled software engineer to join our team in developing innovative solutions for our users. The ideal candidate should have a strong background in computer science and experience with modern programming languages and frameworks.",
+      "requirements": [
+        "BS/MS/PhD in Computer Science or related field",
+        "Strong proficiency in a modern programming language (e.g. Java, Python, C++)",
+        "Experience with software development tools and practices (e.g. version control, testing, debugging)"
+      ],
+      "experience": "3-5 years",
+      "worktime": "Full-time",
+      "salary": "$130,000 - $170,000"
+    },
+    {
+      "company": "NASA",
+      "logo": "https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg",
+      "position": "Aerospace Engineer",
+      "location": "Houston, TX",
+      "description": "We are seeking an experienced aerospace engineer to work on cutting-edge projects in space exploration and research. The ideal candidate should have a strong background in mechanical and aerospace engineering and experience with complex systems and technologies.",
+      "requirements": [
+        "BS/MS/PhD in Aerospace or Mechanical Engineering",
+        "Experience with design and analysis of complex systems (e.g. rockets, satellites, space probes)",
+        "Proficiency in engineering software tools and technologies (e.g. CAD, FEA, CFD)"
+      ],
+      "experience": "5-7 years",
+      "worktime": "Full-time",
+      "salary": "$120,000 - $160,000"
+    },
+    {
+      "company": "Tesla",
+      "logo": "https://www.tesla.com/sites/default/files/images/tesla_logo_red.png",
+      "position": "Electrical Engineer",
+      "location": "Fremont, CA",
+      "description": "We are seeking a talented electrical engineer to join our team in designing and developing cutting-edge electric vehicles and energy products. The ideal candidate should have a strong background in electrical engineering and experience with power electronics and control systems.",
+      "requirements": [
+        "BS/MS/PhD in Electrical Engineering or related field",
+        "Experience with power electronics and control systems (e.g. motor drives, inverters, battery management systems)",
+        "Proficiency in electrical design and simulation tools (e.g. Altium, SPICE)"
+      ],
+      "experience": "2-4 years",
+      "worktime": "Full-time",
+      "salary": "$100,000 - $140,000"
+    },
+    {
+      "company": "Meta",
+      "logo": "https://meta.com/images/meta-logo.png",
+      "position": "Machine Learning Engineer",
+      "location": "Menlo Park, CA",
+      "description": "We are seeking a highly motivated machine learning engineer to work on our cutting-edge AI technologies. The ideal candidate should have a strong background in machine learning, deep learning, and computer vision.",
+      "requirements": [
+        "BS/MS/PhD in Computer Science or related field",
+        "Strong proficiency in machine learning and deep learning (e.g. TensorFlow, PyTorch)",
+        "Experience with computer vision and image processing (e.g. OpenCV)"
+      ]
+    }
+  ]
+}

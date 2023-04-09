@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.my-container {
+  @apply max-w-5xl mx-auto;
+}
+.btn-primary {
+  @apply bg-gradient-to-t from-indigo-400 to-indigo-500 rounded-md text-gray-50 px-4 py-3 font-semibold shadow-md hover:bg-gradient-to-l hover:from-indigo-500 hover:to-indigo-500 transition-all;
+}
