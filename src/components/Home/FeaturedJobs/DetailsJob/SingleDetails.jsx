@@ -69,7 +69,7 @@ const SingleDetails = () => {
           ">
               Job Details
             </h1>
-            <hr className="" />
+            <hr className="border border-slate-400" />
             <p className="text-gray-700">
               <span className="text-gray-800 font-semibold">Job Title</span>:{" "}
               {position}
@@ -85,7 +85,7 @@ const SingleDetails = () => {
             <h1 className="text-gray-800 font-semibold text-lg">
               Contact Information
             </h1>
-            <hr />
+            <hr className="border border-slate-400" />
             <p className="text-gray-700">
               <span className="text-gray-800 font-semibold">Email</span>:
               info@gmail.com
