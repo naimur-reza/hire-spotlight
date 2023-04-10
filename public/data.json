@@ -30,6 +30,7 @@
       ],
       "experience": "5-7 years",
       "worktime": "Full-time",
+      "work_type": "Onsite",
       "salary": "$120,000 - $160,000"
     },
     {
@@ -46,6 +47,7 @@
       ],
       "experience": "2-4 years",
       "worktime": "Full-time",
+      "work_type": "Remote",
       "salary": "$100,000 - $140,000"
     },
     {
@@ -62,6 +64,7 @@
       ],
       "experience": "2-4 years",
       "worktime": "Full-time",
+      "work_type": "Remote",
       "salary": "$150,000 - $180,000"
     },
 
@@ -88,7 +91,8 @@
       "logo": "../src/assets/Logo/amazon.png",
       "position": "Frontend Developer",
       "location": "Seattle, WA",
-      "worktime": "Full-time",
+      "worktime": "Part-Time",
+      "work_type": "Onsite",
       "description": "We are looking for a frontend developer who is passionate about creating user-friendly and responsive web applications. The ideal candidate should have experience with React and JavaScript frameworks.",
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
@@ -110,7 +114,8 @@
         "Experience with mobile development technologies (e.g. Xcode, CocoaPods)"
       ],
       "experience": "2-4 years",
-      "worktime": "Full-time",
+      "worktime": "Part-Time",
+      "work_type": "Onsite",
       "salary": "$160,000 - $200,000"
     },
     {

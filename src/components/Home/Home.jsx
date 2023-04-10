@@ -8,8 +8,8 @@ const Home = () => {
   return (
     <div>
       <div className="bg-gray-100">
-        <div className="my-container lg:flex-row flex-col flex items-center justify-between">
-          <div className="lg:w-[570px] space-y-6">
+        <div className="my-container p-3 lg:flex-row flex-col flex items-center justify-between">
+          <div className="lg:w-[570px] space-y-2 lg:space-y-6">
             <h1 className=" text-5xl text-gray-800 font-semibold leading-tight">
               One Step Closer To Your{" "}
               <span className="text-indigo-500">Dream Job</span>
@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="my-container">
+      <div className="my-container p-3">
         <CategoryList />
         <FeaturedJob />
       </div>

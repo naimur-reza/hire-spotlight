@@ -9,10 +9,27 @@ const Nav = () => {
         <Link to={"/"}>
           <h1 className="text-3xl text-gray-700 font-bold">HiresSpotlight</h1>
         </Link>
-        <div className="space-x-7  text-base">
-          <NavLink to={"statistics"}>Statistics</NavLink>
-          <NavLink to={"applies"}>Job Applies</NavLink>
-          <NavLink to={"blog"}>Blog</NavLink>
+        <div className="space-x-7  font-semibold">
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to={"/"}>
+            Home
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to={"statistics"}>
+            Statistics
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to={"applies"}>
+            Job Applies
+          </NavLink>
+          <NavLink
+            className={({ isActive }) => (isActive ? "active" : "")}
+            to={"blog"}>
+            Blog
+          </NavLink>
         </div>
         <button className="btn-primary">Start Applying</button>
       </nav>
