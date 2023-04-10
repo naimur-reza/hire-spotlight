@@ -7,12 +7,11 @@ import Nav from "./components/Header/Nav";
 export const JobDataContext = createContext([]);
 const App = () => {
   const { jobs } = useLoaderData();
-  console.log(jobs);
   return (
     <JobDataContext.Provider value={jobs}>
       <div>
         <Nav />
-        <div className="min-h-[calc(100vh)]">
+        <div className="min-h-[calc(100vh-152px)]">
           <Outlet />
         </div>
         <Footer />

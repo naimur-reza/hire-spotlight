@@ -1,6 +1,7 @@
 {
   "jobs": [
     {
+      "id": 1,
       "company": "Google",
       "logo": "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
       "position": "Software Engineer",
@@ -16,6 +17,7 @@
       "salary": "$130,000 - $170,000"
     },
     {
+      "id": 2,
       "company": "NASA",
       "logo": "https://www.nasa.gov/sites/all/themes/custom/nasatwo/images/nasa-logo.svg",
       "position": "Aerospace Engineer",
@@ -31,8 +33,9 @@
       "salary": "$120,000 - $160,000"
     },
     {
+      "id": 3,
       "company": "Tesla",
-      "logo": "https://www.tesla.com/sites/default/files/images/tesla_logo_red.png",
+      "logo": "../src/assets/Logo/tesla-9 1.png",
       "position": "Electrical Engineer",
       "location": "Fremont, CA",
       "description": "We are seeking a talented electrical engineer to join our team in designing and developing cutting-edge electric vehicles and energy products. The ideal candidate should have a strong background in electrical engineering and experience with power electronics and control systems.",
@@ -46,8 +49,9 @@
       "salary": "$100,000 - $140,000"
     },
     {
+      "id": 4,
       "company": "Meta",
-      "logo": "https://meta.com/images/meta-logo.png",
+      "logo": "../src/assets/Logo/meta.png",
       "position": "Machine Learning Engineer",
       "location": "Menlo Park, CA",
       "description": "We are seeking a highly motivated machine learning engineer to work on our cutting-edge AI technologies. The ideal candidate should have a strong background in machine learning, deep learning, and computer vision.",
@@ -55,7 +59,76 @@
         "BS/MS/PhD in Computer Science or related field",
         "Strong proficiency in machine learning and deep learning (e.g. TensorFlow, PyTorch)",
         "Experience with computer vision and image processing (e.g. OpenCV)"
+      ],
+      "experience": "2-4 years",
+      "worktime": "Full-time",
+      "salary": "$150,000 - $180,000"
+    },
+
+    {
+      "id": 5,
+      "company": "NetFlix",
+      "logo": "../src/assets/Logo/netflix-4 1.png",
+      "position": "Data Scientist",
+      "location": "Redmond, WA",
+      "description": "We are seeking a data scientist who is skilled in developing and implementing machine learning algorithms. The ideal candidate should have experience with statistical analysis and data visualization.",
+      "requirements": [
+        "BS/MS/PhD in Statistics, Computer Science, or related field",
+        "Strong proficiency in Python and R",
+        "Experience with statistical analysis and data visualization tools (e.g. Tableau, Power BI)"
+      ],
+      "experience": "2-4 years",
+      "worktime": "Full-time",
+      "salary": "$100,000 - $140,000"
+    },
+
+    {
+      "id": 6,
+      "company": "Amazon",
+      "logo": "../src/assets/Logo/amazon.png",
+      "position": "Frontend Developer",
+      "location": "Seattle, WA",
+      "worktime": "Full-time",
+      "description": "We are looking for a frontend developer who is passionate about creating user-friendly and responsive web applications. The ideal candidate should have experience with React and JavaScript frameworks.",
+      "requirements": [
+        "BS/MS/PhD in Computer Science or related field",
+        "Proficiency in React and JavaScript frameworks (e.g. Angular, Vue)",
+        "Experience with web development technologies (e.g. HTML, CSS)"
       ]
+    },
+
+    {
+      "id": 7,
+      "company": "Apple",
+      "logo": "../src/assets/Logo/apple.png",
+      "position": "iOS Developer",
+      "location": "Cupertino, CA",
+      "description": "We are seeking an iOS developer who is passionate about building mobile applications. The ideal candidate should have experience with Swift and iOS frameworks.",
+      "requirements": [
+        "BS/MS/PhD in Computer Science or related field",
+        "Proficiency in Swift and iOS frameworks (e.g. UIKit, SwiftUI)",
+        "Experience with mobile development technologies (e.g. Xcode, CocoaPods)"
+      ],
+      "experience": "2-4 years",
+      "worktime": "Full-time",
+      "salary": "$160,000 - $200,000"
+    },
+    {
+      "id": 8,
+      "company": "Microsoft",
+      "logo": "../src/assets/Logo/microsoft.png",
+      "position": "Senior Backend Engineer",
+      "location": "San Francisco, CA",
+      "description": "We are seeking a senior backend engineer to help us build scalable and reliable systems for our transportation platform. The ideal candidate should have experience with distributed systems and building RESTful APIs.",
+      "requirements": [
+        "BS/MS/PhD in Computer Science or related field",
+        "Proficiency in Java or Python",
+        "Experience with distributed systems and microservices architecture",
+        "Experience building RESTful APIs"
+      ],
+      "experience": "2-4 years",
+      "worktime": "Full-time",
+      "salary": "$120,000 - $160,000"
     }
   ]
 }

@@ -1,12 +1,15 @@
 import React from "react";
 import Header from "../Header/Header";
 import background from "../../assets/All Images/P3OLGJ1 copy 1.png";
+import CategoryList from "./CategoryList/CategoryList";
+import FeaturedJob from "./FeaturedJobs/FeaturedJob";
+import { useLoaderData } from "react-router-dom";
 const Home = () => {
   return (
     <div>
       <div className="bg-gray-100">
-        <div className="my-container flex items-center justify-between">
-          <div className="w-[570px] space-y-6">
+        <div className="my-container lg:flex-row flex-col flex items-center justify-between">
+          <div className="lg:w-[570px] space-y-6">
             <h1 className=" text-5xl text-gray-800 font-semibold leading-tight">
               One Step Closer To Your{" "}
               <span className="text-indigo-500">Dream Job</span>
@@ -22,6 +25,10 @@ const Home = () => {
             <img src={background} alt="" />
           </div>
         </div>
+      </div>
+      <div className="my-container">
+        <CategoryList />
+        <FeaturedJob />
       </div>
     </div>
   );
