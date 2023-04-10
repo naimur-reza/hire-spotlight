@@ -8,20 +8,20 @@ const DetailsJob = ({ job }) => {
   const { company, logo, id, location, salary, worktime, position } = job;
   const navigate = useNavigate();
   return (
-    <div className="border p-5 space-y-3 relative">
-      <div className="w-24">
+    <div className="border p-5 space-y-2 relative">
+      <div className="w-28 h-24 flex items-center justify-center">
         <img
-          className="object-cover
+          className="w-full
       "
           src={logo}
           alt=""
         />
       </div>
-      <h1 className="text-lg font-semibold">{position}</h1>
+      <h1 className="text-xl font-semibold">{position}</h1>
       <p className="text-base text-gray-700 pb-2">{company}</p>
       <span className="btn-outline">Onsite</span>{" "}
       <span className="btn-outline">{worktime}</span>
-      <p className="text-gray-700 py-2 text-sm flex">
+      <p className="text-gray-700 py-2 text-md flex items-center">
         {" "}
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@ const DetailsJob = ({ job }) => {
         </svg>
         {salary}
       </p>
-      <p className="flex gap-1 text-gray-700">
+      <p className="flex items-center gap-1 text-gray-700">
         <span>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -65,8 +65,8 @@ const DetailsJob = ({ job }) => {
       <Link to={`/details/${id}`}>
         <button
           onClick={() => navigate(id)}
-          className="absolute bottom-2 bg-gradient-to-t  from-indigo-400 to-indigo-500 roun
-          ded-md text-gray-50 px-3 py-1 font-semibold">
+          className=" bottom-2 bg-gradient-to-t  from-indigo-400 to-indigo-500 roun
+          ded-md text-gray-50 rounded-md px-3 transition-all hover:bg-indigo-600 py-1 font-semibold">
           View Details
         </button>
       </Link>

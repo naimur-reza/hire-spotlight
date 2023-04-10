@@ -15,7 +15,7 @@ const CategoryList = () => {
         need. Its your future
       </p>
       <div className="card-container grid-cols-2 grid lg:grid-cols-4 gap-3 font-semibold">
-        {categories.map((pd, idx) => (
+        {categories?.map((pd, idx) => (
           <div
             key={pd.id}
             className="bg-gray-100 p-4 space-y-2 text-gray-700 cursor-pointer rounded-md">

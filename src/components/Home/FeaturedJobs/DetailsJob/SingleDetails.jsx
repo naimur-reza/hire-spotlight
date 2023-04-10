@@ -3,6 +3,7 @@ import { JobDataContext } from "../../../../App";
 import { useLoaderData, useParams } from "react-router-dom";
 import background from "../../../../assets/All Images/Vector.png";
 import background2 from "../../../../assets/All Images/Vector-1.png";
+import { addToDb } from "../../../../utils/fakedb";
 
 const SingleDetails = () => {
   const params = useParams();
@@ -17,8 +18,14 @@ const SingleDetails = () => {
     };
     fetchData();
   }, []);
+
+  // handle apply now
+  const handleApply = (id) => {
+    addToDb(id);
+  };
   // const allData = useContext(JobDataContext);
   const {
+    id,
     description,
     position,
     company,
@@ -89,7 +96,9 @@ const SingleDetails = () => {
             </p>
           </div>
 
-          <button className="btn-primary">Apply Now</button>
+          <button onClick={() => handleApply(id)} className="btn-primary">
+            Apply Now
+          </button>
         </div>
       </div>
     </div>
