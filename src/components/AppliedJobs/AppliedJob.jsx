@@ -1,8 +1,13 @@
 import React, { useContext } from "react";
 import { getJobCart } from "../../utils/fakedb";
 import { JobDataContext } from "../../App";
+import { Link, useNavigation } from "react-router-dom";
 
 const AppliedJob = () => {
+  const navigation = useNavigation();
+  if (navigation.state === "loading") {
+    return <Loading />;
+  }
   const allJobs = useContext(JobDataContext);
   let jobCart = [];
   console.log(allJobs);
@@ -35,7 +40,9 @@ const AppliedJob = () => {
             <h1 className="text-gray-500 font-medium">{job?.location}</h1>
           </div>
           <div className="ml-auto">
-            <button className="btn-primary">View Details</button>
+            <Link to={`/details/${job?.id}`}>
+              <button className="btn-primary">View Details</button>
+            </Link>
           </div>
         </div>
       ))}

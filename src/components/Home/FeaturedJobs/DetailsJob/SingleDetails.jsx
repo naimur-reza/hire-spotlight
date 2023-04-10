@@ -78,6 +78,10 @@ const SingleDetails = () => {
               <span className="text-gray-800 font-semibold">Salary</span>:{" "}
               {salary}
             </h1>
+            <h1 className="text-gray-700">
+              <span className="text-gray-800 font-semibold">Company</span>:{" "}
+              {company}
+            </h1>
             <h1 className="text-gray-800 font-semibold text-lg">
               Contact Information
             </h1>
