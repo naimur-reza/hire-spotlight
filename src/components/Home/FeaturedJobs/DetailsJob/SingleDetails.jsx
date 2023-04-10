@@ -1,13 +1,23 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect, useState } from "react";
 import { JobDataContext } from "../../../../App";
 import { useLoaderData, useParams } from "react-router-dom";
 import background from "../../../../assets/All Images/Vector.png";
 import background2 from "../../../../assets/All Images/Vector-1.png";
 
 const SingleDetails = () => {
-  const allData = useContext(JobDataContext);
-  const data = useParams();
-  const job = allData.find((job) => job.id === parseInt(data.jobId));
+  const params = useParams();
+  const [data, setData] = useState({});
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await fetch("/data.json");
+      const json = await data.json();
+
+      const job = json.jobs?.find((job) => job.id === parseInt(params.jobId));
+      setData(job);
+    };
+    fetchData();
+  }, []);
+  // const allData = useContext(JobDataContext);
   const {
     description,
     position,
@@ -16,7 +26,7 @@ const SingleDetails = () => {
     location,
     salary,
     experience,
-  } = job;
+  } = data;
   return (
     <div className="">
       <div className="my-container  mt-10 flex flex-col lg:flex-row">
@@ -34,7 +44,7 @@ const SingleDetails = () => {
             <h1 className="text-lg font-semibold text-gray-800">
               Educational Requirements:
             </h1>
-            {requirements.map((rq) => (
+            {requirements?.map((rq) => (
               <li className="list-decimal text-gray-700">{rq}</li>
             ))}
           </ul>
