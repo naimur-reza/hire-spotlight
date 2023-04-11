@@ -5,7 +5,8 @@ import { JobDataContext } from "../../../../App";
 export const singleDetails = createContext([]);
 const DetailsJob = ({ job }) => {
   const allData = useContext(JobDataContext);
-  const { company, logo, id, location, salary, worktime, position } = job;
+  const { company, logo, id, location, salary, worktime, position, work_type } =
+    job;
   const navigate = useNavigate();
   return (
     <div className="border p-5 space-y-2 relative">
@@ -19,7 +20,7 @@ const DetailsJob = ({ job }) => {
       </div>
       <h1 className="text-xl font-semibold">{position}</h1>
       <p className="text-base text-gray-700 pb-2">{company}</p>
-      <span className="btn-outline">Onsite</span>{" "}
+      <span className="btn-outline">{work_type}</span>{" "}
       <span className="btn-outline">{worktime}</span>
       <p className="text-gray-700 py-2 text-md flex items-center">
         {" "}

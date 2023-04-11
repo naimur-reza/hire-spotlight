@@ -14,6 +14,7 @@
       ],
       "experience": "3-5 years",
       "worktime": "Full-time",
+      "work_type": "Remote",
       "salary": "$130,000 - $170,000"
     },
     {
@@ -29,14 +30,14 @@
         "Proficiency in engineering software tools and technologies (e.g. CAD, FEA, CFD)"
       ],
       "experience": "5-7 years",
-      "worktime": "Full-time",
-      "work_type": "Onsite",
+      "worktime": "Part-Time",
+      "work_type": "Onside",
       "salary": "$120,000 - $160,000"
     },
     {
       "id": 3,
       "company": "Tesla",
-      "logo": "../src/assets/Logo/tesla-9 1.png",
+      "logo": "https://i.ibb.co/q72rcP7/tesla-9-1.png",
       "position": "Electrical Engineer",
       "location": "Fremont, CA",
       "description": "We are seeking a talented electrical engineer to join our team in designing and developing cutting-edge electric vehicles and energy products. The ideal candidate should have a strong background in electrical engineering and experience with power electronics and control systems.",
@@ -53,7 +54,7 @@
     {
       "id": 4,
       "company": "Meta",
-      "logo": "../src/assets/Logo/meta.png",
+      "logo": "https://i.ibb.co/P1DyzWZ/meta.png",
       "position": "Machine Learning Engineer",
       "location": "Menlo Park, CA",
       "description": "We are seeking a highly motivated machine learning engineer to work on our cutting-edge AI technologies. The ideal candidate should have a strong background in machine learning, deep learning, and computer vision.",
@@ -71,7 +72,7 @@
     {
       "id": 5,
       "company": "NetFlix",
-      "logo": "../src/assets/Logo/netflix-4 1.png",
+      "logo": "https://i.ibb.co/QFRVw9b/netflix-4-1.png",
       "position": "Data Scientist",
       "location": "Redmond, WA",
       "description": "We are seeking a data scientist who is skilled in developing and implementing machine learning algorithms. The ideal candidate should have experience with statistical analysis and data visualization.",
@@ -81,18 +82,19 @@
         "Experience with statistical analysis and data visualization tools (e.g. Tableau, Power BI)"
       ],
       "experience": "2-4 years",
-      "worktime": "Full-time",
+      "worktime": "Part-Time",
+      "work_type": "Onside",
       "salary": "$100,000 - $140,000"
     },
 
     {
       "id": 6,
       "company": "Amazon",
-      "logo": "../src/assets/Logo/amazon.png",
+      "logo": "https://i.ibb.co/V9DkC0z/amazon.png",
       "position": "Frontend Developer",
       "location": "Seattle, WA",
       "worktime": "Part-Time",
-      "work_type": "Onsite",
+      "work_type": "Onside",
       "description": "We are looking for a frontend developer who is passionate about creating user-friendly and responsive web applications. The ideal candidate should have experience with React and JavaScript frameworks.",
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
@@ -104,7 +106,7 @@
     {
       "id": 7,
       "company": "Apple",
-      "logo": "../src/assets/Logo/apple.png",
+      "logo": "https://i.ibb.co/Rb5FR4w/apple.png",
       "position": "iOS Developer",
       "location": "Cupertino, CA",
       "description": "We are seeking an iOS developer who is passionate about building mobile applications. The ideal candidate should have experience with Swift and iOS frameworks.",
@@ -115,13 +117,13 @@
       ],
       "experience": "2-4 years",
       "worktime": "Part-Time",
-      "work_type": "Onsite",
+      "work_type": "Onside",
       "salary": "$160,000 - $200,000"
     },
     {
       "id": 8,
       "company": "Microsoft",
-      "logo": "../src/assets/Logo/microsoft.png",
+      "logo": "https://i.ibb.co/zVrw1Fy/microsoft.png",
       "position": "Senior Backend Engineer",
       "location": "San Francisco, CA",
       "description": "We are seeking a senior backend engineer to help us build scalable and reliable systems for our transportation platform. The ideal candidate should have experience with distributed systems and building RESTful APIs.",
@@ -133,6 +135,7 @@
       ],
       "experience": "2-4 years",
       "worktime": "Full-time",
+      "work_type": "Onside",
       "salary": "$120,000 - $160,000"
     }
   ]
