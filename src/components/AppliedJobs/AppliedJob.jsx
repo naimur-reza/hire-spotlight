@@ -26,31 +26,26 @@ const AppliedJob = () => {
     setAppliedJob(jobCart);
     setFilter(jobCart);
   }, []);
-  // this is filter feature
-  const handleRemoteJob = () => {
-    const remoteJobs = appliedJob.filter((job) => job.work_type === "Remote");
-    setFilter(remoteJobs);
+  const handleFilter = (event) => {
+    const value = event.target.value;
+    if (value === "Remote") {
+      const remoteJobs = appliedJob.filter((job) => job.work_type === "Remote");
+      setFilter(remoteJobs);
+    } else if (value === "Onside") {
+      const remoteJobs = appliedJob.filter((job) => job.work_type === "Onside");
+      setFilter(remoteJobs);
+    }
   };
-  const handleOnsideJob = () => {
-    const cartJobs = allJobs.filter;
-    const remoteJobs = appliedJob.filter((job) => job.work_type === "Onside");
-    setFilter(remoteJobs);
-  };
-  console.log(isFilter);
-  console.log(appliedJob);
   return (
     <div className="my-container">
       <div className="flex justify-end my-5">
-        <button
-          onClick={() => handleRemoteJob()}
-          className="hover:bg-indigo-500 duration-200 bg-indigo-400 px-4 py-2 rounded-lg ml-3 text-white font-semibold">
-          Show Remote Jobs
-        </button>
-        <button
-          onClick={() => handleOnsideJob()}
-          className="hover:bg-indigo-500 duration-200 bg-indigo-400 px-4 py-2 rounded-lg ml-3 text-white font-semibold">
-          Show Onside Jobs
-        </button>
+        <select
+          className="bg-gray-200 p-2 rounded-md outline-none border-none"
+          onChange={handleFilter}>
+          <option disabled>Select Job Type</option>
+          <option>Onside</option>
+          <option>Remote</option>
+        </select>
       </div>
       <div className="p-2">
         {isFilter.map((job) => (
