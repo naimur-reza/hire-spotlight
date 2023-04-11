@@ -1,4 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=33&pause=1000&width=435&lines=Hire+Spotlight;Apply+your+job;React+Application)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=33&pause=1000&width=435&lines=Hire+Spotlight;Apply+your+job;React+Application)](https://git.io/typing-svg)
 
 <h3> Live Link : https://hire-application.netlify.app/ </h3>
 
