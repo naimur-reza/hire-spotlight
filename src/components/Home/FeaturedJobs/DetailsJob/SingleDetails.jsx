@@ -33,25 +33,37 @@ const SingleDetails = () => {
     location,
     salary,
     experience,
+    responsibilities,
   } = data;
+  console.log(responsibilities);
   return (
-    <div className="p-6 lg:p-0 my-container  mt-10 flex flex-col lg:flex-row">
+    <div className="p-6 lg:p-0 my-container gap-3  mt-10 flex flex-col lg:flex-row">
       <div className="max-w-2xl space-y-4">
         <h1 className="tracking-wide">
           <span className="text-lg font-semibold  text-gray-800">
             Job Description
           </span>
-          :<span className="text-gray-700">{description}</span>
+          :
+          <span className="text-gray-700 text-sm lg:text-base">
+            {description}
+          </span>
         </h1>
-        <p>
+        <ul>
           <span className="text-lg font-semibold ">Job Responsibility</span>:
-        </p>
+          {responsibilities?.map((rs) => (
+            <li className="text-gray-600 text-sm lg:text-base list-inside list-disc">
+              {rs}
+            </li>
+          ))}
+        </ul>
         <ul className="list-disc">
           <h1 className="text-lg font-semibold text-gray-800">
             Educational Requirements:
           </h1>
           {requirements?.map((rq) => (
-            <li className="list-decimal text-gray-700">{rq}</li>
+            <li className="list-decimal list-inside text-sm lg:text-base text-gray-700">
+              {rq}
+            </li>
           ))}
         </ul>
         <h1>
@@ -61,7 +73,7 @@ const SingleDetails = () => {
           {experience}
         </h1>
       </div>
-      <div className="flex  flex-col gap-5">
+      <div className="flex  flex-col gap-5 py-10 lg:p-0">
         <div className=" p-5 space-y-3 bg-gradient-to-r from-[#7E90FE1A] to-[#e3dafc] rounded-md">
           <h1
             className="text-gray-800 font-semibold text-lg

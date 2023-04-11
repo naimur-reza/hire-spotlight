@@ -7,6 +7,14 @@
       "position": "Software Engineer",
       "location": "Mountain View, CA",
       "description": "We are seeking a highly skilled software engineer to join our team in developing innovative solutions for our users. The ideal candidate should have a strong background in computer science and experience with modern programming languages and frameworks.",
+      "responsibilities": [
+        "Design, develop, test, and maintain software",
+        "Collaborate with cross-functional teams",
+        "Continuously learn and stay up-to-date with new technologies",
+        "Contribute to software engineering best practices",
+        "Troubleshoot and debug issues",
+        "Document software specifications and changes"
+      ],
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
         "Strong proficiency in a modern programming language (e.g. Java, Python, C++)",
@@ -14,7 +22,7 @@
       ],
       "experience": "3-5 years",
       "worktime": "Full-time",
-      "work_type": "Remote",
+      "work_type": "Onside",
       "salary": "$130,000 - $170,000"
     },
     {
@@ -24,6 +32,15 @@
       "position": "Aerospace Engineer",
       "location": "Houston, TX",
       "description": "We are seeking an experienced aerospace engineer to work on cutting-edge projects in space exploration and research. The ideal candidate should have a strong background in mechanical and aerospace engineering and experience with complex systems and technologies.",
+      "responsibilities": [
+        "Assist with recruitment, selection, and onboarding",
+        "Administer employee benefits and maintain records",
+        "Provide HR support to employees",
+        "Coordinate employee training and development",
+        "Develop and implement HR policies and procedures",
+        "Conduct performance management activities",
+        "Ensure compliance with employment laws and regulations"
+      ],
       "requirements": [
         "BS/MS/PhD in Aerospace or Mechanical Engineering",
         "Experience with design and analysis of complex systems (e.g. rockets, satellites, space probes)",
@@ -41,6 +58,13 @@
       "position": "Electrical Engineer",
       "location": "Fremont, CA",
       "description": "We are seeking a talented electrical engineer to join our team in designing and developing cutting-edge electric vehicles and energy products. The ideal candidate should have a strong background in electrical engineering and experience with power electronics and control systems.",
+      "responsibilities": [
+        "Assist with recruitment, selection, and onboarding",
+        "Administer employee benefits and maintain records",
+        "Provide HR support to employees",
+        "Coordinate employee training and development",
+        "Develop and implement HR policies and procedures"
+      ],
       "requirements": [
         "BS/MS/PhD in Electrical Engineering or related field",
         "Experience with power electronics and control systems (e.g. motor drives, inverters, battery management systems)",
@@ -48,7 +72,7 @@
       ],
       "experience": "2-4 years",
       "worktime": "Full-time",
-      "work_type": "Remote",
+      "work_type": "Onside",
       "salary": "$100,000 - $140,000"
     },
     {
@@ -58,6 +82,15 @@
       "position": "Machine Learning Engineer",
       "location": "Menlo Park, CA",
       "description": "We are seeking a highly motivated machine learning engineer to work on our cutting-edge AI technologies. The ideal candidate should have a strong background in machine learning, deep learning, and computer vision.",
+      "responsibilities": [
+        "Develop and implement marketing plans",
+        "Manage marketing team",
+        "Analyze market trends",
+        "Collaborate with cross-functional teams",
+        "Manage marketing budget",
+        "Monitor and report campaign effectiveness",
+        "Ensure brand consistency"
+      ],
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
         "Strong proficiency in machine learning and deep learning (e.g. TensorFlow, PyTorch)",
@@ -76,6 +109,12 @@
       "position": "Data Scientist",
       "location": "Redmond, WA",
       "description": "We are seeking a data scientist who is skilled in developing and implementing machine learning algorithms. The ideal candidate should have experience with statistical analysis and data visualization.",
+      "responsibilities": [
+        "Develop and implement marketing plans",
+        "Manage marketing team",
+        "Analyze market trends",
+        "Collaborate with cross-functional teams"
+      ],
       "requirements": [
         "BS/MS/PhD in Statistics, Computer Science, or related field",
         "Strong proficiency in Python and R",
@@ -96,6 +135,13 @@
       "worktime": "Part-Time",
       "work_type": "Onside",
       "description": "We are looking for a frontend developer who is passionate about creating user-friendly and responsive web applications. The ideal candidate should have experience with React and JavaScript frameworks.",
+      "responsibilities": [
+        "Analyze market trends",
+        "Collaborate with cross-functional teams",
+        "Manage marketing budget",
+        "Monitor and report campaign effectiveness",
+        "Ensure brand consistency"
+      ],
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
         "Proficiency in React and JavaScript frameworks (e.g. Angular, Vue)",
@@ -110,6 +156,13 @@
       "position": "iOS Developer",
       "location": "Cupertino, CA",
       "description": "We are seeking an iOS developer who is passionate about building mobile applications. The ideal candidate should have experience with Swift and iOS frameworks.",
+      "responsibilities": [
+        "Design, develop, test, and maintain software",
+        "Collaborate with cross-functional teams",
+        "Write clean, efficient, and well-documented code",
+        "Participate in code reviews and testing",
+        "Continuously learn and stay up-to-date with new technologies"
+      ],
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
         "Proficiency in Swift and iOS frameworks (e.g. UIKit, SwiftUI)",
@@ -127,6 +180,12 @@
       "position": "Senior Backend Engineer",
       "location": "San Francisco, CA",
       "description": "We are seeking a senior backend engineer to help us build scalable and reliable systems for our transportation platform. The ideal candidate should have experience with distributed systems and building RESTful APIs.",
+      "responsibilities": [
+        "Develop and implement marketing plans",
+        "Manage marketing team",
+        "Monitor and report campaign effectiveness",
+        "Ensure brand consistency"
+      ],
       "requirements": [
         "BS/MS/PhD in Computer Science or related field",
         "Proficiency in Java or Python",
@@ -135,7 +194,7 @@
       ],
       "experience": "2-4 years",
       "worktime": "Full-time",
-      "work_type": "Onside",
+      "work_type": "Remote",
       "salary": "$120,000 - $160,000"
     }
   ]
