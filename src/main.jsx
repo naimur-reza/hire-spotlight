@@ -10,6 +10,7 @@ import ErrorPage from "./components/Error/ErrorPage";
 import AppliedJob from "./components/AppliedJobs/AppliedJob";
 import SingleDetails from "./components/Home/FeaturedJobs/DetailsJob/SingleDetails";
 import Loading from "./components/Loading/Loading";
+import NoData from "./components/Error/NoData";
 
 const router = createBrowserRouter([
   {
@@ -37,8 +38,8 @@ const router = createBrowserRouter([
         element: <AppliedJob />,
       },
       {
-        path: "loading",
-        element: <Loading />,
+        path: "notdata",
+        element: <NoData />,
       },
       {
         path: "/details/:jobId",

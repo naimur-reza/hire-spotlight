@@ -3,6 +3,7 @@ import { getJobCart } from "../../utils/fakedb";
 import { JobDataContext } from "../../App";
 import { Link, useNavigation } from "react-router-dom";
 import { MapPinIcon } from "@heroicons/react/24/solid";
+import NoData from "../Error/NoData";
 
 const AppliedJob = () => {
   const [appliedJob, setAppliedJob] = useState([]);
@@ -26,6 +27,8 @@ const AppliedJob = () => {
     setAppliedJob(jobCart);
     setFilter(jobCart);
   }, []);
+  // check the applied jobs data is or not
+
   const handleFilter = (event) => {
     const value = event.target.value;
     if (value === "Remote") {
@@ -34,8 +37,13 @@ const AppliedJob = () => {
     } else if (value === "Onside") {
       const remoteJobs = appliedJob.filter((job) => job.work_type === "Onside");
       setFilter(remoteJobs);
+    } else if (value === "All") {
+      setFilter(appliedJob);
     }
   };
+  if (appliedJob.length <= 0) {
+    return <NoData />;
+  }
   return (
     <div className="my-container">
       <div className="flex justify-end my-5 mr-3">
@@ -43,6 +51,7 @@ const AppliedJob = () => {
           className="bg-gray-200 p-2 rounded-md outline-none border-none"
           onChange={handleFilter}>
           <option disabled>Select Job Type</option>
+          <option>All</option>
           <option>Onside</option>
           <option>Remote</option>
         </select>

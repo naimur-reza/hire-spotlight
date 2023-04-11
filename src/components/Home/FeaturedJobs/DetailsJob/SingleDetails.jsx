@@ -35,7 +35,6 @@ const SingleDetails = () => {
     experience,
     responsibilities,
   } = data;
-  console.log(responsibilities);
   return (
     <div className="p-6 lg:p-0 my-container gap-3  mt-10 flex flex-col lg:flex-row">
       <div className="max-w-2xl space-y-4">
