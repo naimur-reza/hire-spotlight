@@ -1,5 +1,13 @@
 import React from "react";
-import { Bar, CartesianGrid, Pie, PieChart, RadarChart, XAxis } from "recharts";
+import {
+  Bar,
+  CartesianGrid,
+  Pie,
+  PieChart,
+  RadarChart,
+  Tooltip,
+  XAxis,
+} from "recharts";
 
 const Statistics = () => {
   const data = [
@@ -27,6 +35,7 @@ const Statistics = () => {
           fill="#8884d8"
           label
         />
+        <Tooltip />
       </PieChart>
     </div>
   );
