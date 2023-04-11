@@ -38,7 +38,7 @@ const AppliedJob = () => {
   };
   return (
     <div className="my-container">
-      <div className="flex justify-end my-5">
+      <div className="flex justify-end my-5 mr-3">
         <select
           className="bg-gray-200 p-2 rounded-md outline-none border-none"
           onChange={handleFilter}>
@@ -52,25 +52,25 @@ const AppliedJob = () => {
           <div
             key={job?.id}
             className=" p-3 border   flex gap-4 my-5 items-center  rounded-md">
-            <div className="lg:w-32 w-24 h-24 p-2 bg-gray-200 lg:h-32 flex items-center justify-center rounded-md">
+            <div className="lg:w-32 w-20 h-20 p-2 bg-gray-200 lg:h-32 flex items-center justify-center rounded-md">
               <img className="w-full  bg-gray-200" src={job?.logo} alt="" />
             </div>
             <div className="lg:space-y-2 space-y-1">
-              <h1 className="lg:text-xl text-base font-semibold text-gray-700 ">
+              <h1 className="lg:text-xl text-sm font-semibold text-gray-700 ">
                 {job?.position}
               </h1>
-              <h1 className="lg:text-md text-sm text-gray-500 font-medium">
+              <h1 className="lg:text-md text-xs text-gray-500 font-medium">
                 {job?.company}
               </h1>
               <button className="btn-outline">{job?.work_type}</button>{" "}
               <button className="btn-outline">{job?.worktime}</button>
-              <h1 className="text-gray-500 font-medium flex items-center">
+              <h1 className="text-gray-500 text-xs lg:text-base font-medium flex items-center">
                 {job?.location}
               </h1>
             </div>
             <div className="ml-auto">
               <Link to={`/details/${job?.id}`}>
-                <button className="btn-primary">View Details</button>
+                <button className="btn-primary text-sm">View Details</button>
               </Link>
             </div>
           </div>
