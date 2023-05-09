@@ -1,5 +1,4 @@
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=33&pause=1000&width=435&lines=Hire+Spotlight;Apply+your+job;React+Application)](https://git.io/typing-svg)
-
+<h1>Espresso Emporium</h1>
 <h3> Live Link : https://cosmic-coffee.netlify.app/ </h3>
 
 <h3>Feature Overview</h3>
